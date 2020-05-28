@@ -120,7 +120,7 @@ for i in range(1, 4):
         boxSum += boxCnt
         mirrorSum += mirrorCnt
         
-    print("%d OP貼り付けの場合:ベースの数=%f, OPの数=%f 異次元の数=%f, 鏡の数=%f"% (i, itemSum / loopCnt, opSum / loopCnt , boxSum / loopCnt, mirrorSum / loopCnt))
+    print("%d OP異次元の場合:ベースの数=%f, OPの数=%f 異次元の数=%f, 鏡の数=%f"% (i, itemSum / loopCnt, opSum / loopCnt , boxSum / loopCnt, mirrorSum / loopCnt))
     print("総価格 = %f" % ((base * itemSum + op * opSum + box * boxSum + mirror * mirrorSum) / loopCnt))
     
 
